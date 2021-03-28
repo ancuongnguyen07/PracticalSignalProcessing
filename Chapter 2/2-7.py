@@ -64,6 +64,7 @@ for pair in randomNums:
     rgbList.append(data[h][w - 1])
     data[h][w] = takeAvg(rgbList)
 
+# Show images
 modifiedImage = Image.fromarray(data)
 modifiedImage.show()
 solvedImage = Image.fromarray(solvedData)
